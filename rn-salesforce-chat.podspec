@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "14.0"
   s.source       = { :git => "https://github.com/matthewparavati/rn-salesforce-chat.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,m}"
-  s.requires_arc = true
+  s.source_files  = "ios/RNSalesforceChat.{h,m}"
 
   s.dependency "React-Core"
   s.dependency 'ServiceSDK/Chat', '~> 246.0.1'
