@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React-Core"
-  s.dependency "ServiceSDK", "234.1.0"
+  s.dependency 'ServiceSDK/Chat', '~> 246.0.1'
   
   # Disable bitcode
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
