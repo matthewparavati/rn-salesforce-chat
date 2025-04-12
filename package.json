@@ -1,6 +1,6 @@
 {
-  "name": "@loadsmart/rn-salesforce-chat",
-  "version": "3.4.1",
+  "name": "@matthewparavati/rn-salesforce-chat",
+  "version": "4.0.0",
   "description": "React Native wrapper for Salesforce SDK chat",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -18,14 +18,14 @@
     "salesforce",
     "chat"
   ],
-  "author": "Lenoir Zamboni",
+  "author": "Matthew Paravati",
   "license": "MIT",
   "devDependencies": {
     "jest": "^26.1.0",
-    "react-native": "0.61.2"
+    "react-native": "0.72.0"
   },
   "peerDependencies": {
-    "react-native": "0.61.2"
+    "react-native": ">=0.72.0"
   },
   "scripts": {
     "test": "jest --coverage"
@@ -41,17 +41,17 @@
     }
   },
   "nativePackage": true,
-  "homepage": "https://github.com/loadsmart/rn-salesforce-chat#readme",
+  "homepage": "https://github.com/matthewparavati/rn-salesforce-chat#readme",
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "husky": "^4.3.8"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loadsmart/rn-salesforce-chat.git"
+    "url": "git+https://github.com/matthewparavati/rn-salesforce-chat.git"
   },
   "bugs": {
-    "url": "https://github.com/loadsmart/rn-salesforce-chat/issues"
+    "url": "https://github.com/matthewparavati/rn-salesforce-chat/issues"
   },
   "husky": {
     "hooks": {
