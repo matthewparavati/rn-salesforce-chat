@@ -1,5 +1,5 @@
 {
-  "name": "@matthewparavati/rn-salesforce-chat",
+  "name": "@loadsmart/rn-salesforce-chat",
   "version": "4.0.0",
   "description": "React Native wrapper for Salesforce SDK chat",
   "main": "lib/index.js",
